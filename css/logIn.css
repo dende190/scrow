@@ -2,11 +2,11 @@ body {
 	background-color: #E6E6E6;
 }
 .login {
-	height: 350px;
-	width: 340px;
+	height: 370px;
+	width: 335px;
 	background-color: #FAFAFA; 
 	text-align: center;
-	border: 1px solid #E6E6E6;
+	border: 2px solid #D8D8D8;
 	border-radius: 8px;
 	margin: 0 auto;
 	margin-top: 100px;
@@ -76,4 +76,18 @@ body {
 
 ::-webkit-input-placeholder {
    text-align: center;
+}
+
+.link {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.link.olvido{
+	margin-top: 10px;
+}
+
+#urlRegistro {
+	font-family: Arial, Verdana;
+	color: #6E6E6E;
 }
