@@ -1,0 +1,3 @@
+git remote: para ver los documentos en el remoto 
+git remote -v: para ver los detalles del remoto
+git push NOMBRE_PROYECTO  RAMA  : Subir un archivo a GitHub

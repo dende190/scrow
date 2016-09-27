@@ -1,3 +1,79 @@
+body {
+	background-color: #E6E6E6;
+}
 .login {
-	background-color: green; 
+	height: 350px;
+	width: 340px;
+	background-color: #FAFAFA; 
+	text-align: center;
+	border: 1px solid #E6E6E6;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+
+.textbox{
+	border: 1px solid #DBE1EB;
+	font-size: 18px;
+	font-family: Arial, Verdana;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	background: #FFFFFF;
+	background: linear-gradient(left, #FFFFFF, #F7F9FA);
+	background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+	background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+	background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+	color: #2E3133;
+ }
+
+.botonIngreso{
+	font-size:18px;
+	font-family: Arial,Verdana;
+	font-weight:bold;
+	color:white;
+	background: #d3505a;
+	border:0px;
+	width:235px;
+	height:40px;
+	border-radius: 4px;
+}
+
+
+
+.logo {
+	text-align: center;
+	font-family: Arial,Verdana;
+	color: #848484;
+	height: 100px;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+.textUsuario {
+	text-align: center;
+	height: 60px;
+	display: block;
+}
+
+.textPass {
+	text-align: center;
+	height: 60px;
+}
+
+.botonIngreso {
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
 }
