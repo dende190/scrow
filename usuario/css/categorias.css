@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	background-color: #cad5ca ;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-size: 60px;
+}
+.header{
+	background-color: #807f84;
+	width: 100%;
+	height: 100px;
+}
+
+.titulo{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.menu{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.hover{
+	transition: .3s;
+}
+.menu a{
+	text-decoration: none;
+	color: #455056;
+}
+.menu ul{
+	margin: 0;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+.contenedor-li{
+	width: 50px;
+	text-align: center;
+	margin-right: 40px;
+}
+.contenedor-li2{
+	width: 50px;
+	text-align: center;
+	margin-right: 50px;
+}
+.boton{
+	margin-left: 40px;
+	margin-right: 50px;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 12px;
+	background: #d3505a;
+	transition: .1s;
+}
+.boton:active{
+	transform: scale(0.9);
+}
+
+.menu li{
+	list-style: none;
+	display: inline-block;
+}
+.hover:hover{
+	text-decoration: underline;
+	font-size: 23px;
+}
+
+
+.contenido{
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	position: relative;
+	margin-bottom: 100px;
+
+}
+.container{
+	margin: 70px 0 30px ;
+	display: inline-block;
+	width: 455px;
+	height: 285px;
+}
+.imagen{
+	position: relative;
+}
+.figure{	
+	width: 450px;
+	height: 280px;
+	overflow: hidden;
+	margin: 0;
+}
+.figure img{ /*ajustar el tamaño de la imagen*/
+	width: 100%;
+	height: 100%;
+}
+.imagen h3{
+	margin-top: 5px;
+	font-size: 35px;
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+.next{
+	position: absolute;	
+	right: -77px;
+	top: 372px;
+	width: 80px;
+	height: 80px;
+	margin: 0;
+	border-radius: 50%;
+	font-size: 50px;
+	border: 1px solid black;
+	background: #e1ede1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+}
+.next:hover{
+	background: #edf9ed;
+	transform: scale(1.2);
+}
+
+.footer{
+	height: 70px;
+	margin: 0;
+	background: #807f84;
+	display: flex;
+	align-items: center;
+}
+.footer h3{
+	margin: 0 40px;
+	font-size: 30px;
+
+}

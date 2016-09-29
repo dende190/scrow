@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	background-color: #cad5ca ;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-size: 60px;
+}
+.header{
+	background-color: #807f84;
+	width: 100%;
+	height: 100px;
+}
+
+.titulo{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.menu{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.hover{
+	transition: .3s;
+}
+.menu a{
+	text-decoration: none;
+	color: #455056;
+}
+.menu ul{
+	margin: 0;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+.contenedor-li{
+	width: 50px;
+	text-align: center;
+	margin-right: 40px;
+}
+.contenedor-li2{
+	width: 50px;
+	text-align: center;
+	margin-right: 50px;
+}
+.boton{
+	margin-left: 40px;
+	margin-right: 50px;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 12px;
+	background: #d3505a;
+	transition: .1s;
+}
+.boton:active{
+	transform: scale(0.9);
+}
+
+.menu li{
+	list-style: none;
+	display: inline-block;
+}
+.hover:hover{
+	text-decoration: underline;
+	font-size: 23px;
+}
+
+
+
+.container{
+	margin: 50px 10px;
+}
+.productos{
+	margin-left: 30px;
+	display: block;
+	max-height: 300px;
+	max-width: 1300px;
+	display: flex;
+	flex-wrap: nowrap;
+	border-bottom: 1px solid grey;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+.imagen{	
+	width: 400px;
+	height: 280px;
+	overflow: hidden;
+	margin: 0;
+}
+.imagen img{ /*ajustar el tamaño de la imagen*/
+	width: 100%;
+	height: 100%;
+}
+.info-pro{
+	margin-left: 30px;
+	position: relative;
+}
+.titulo-pro{
+	font-size: 40px;
+	margin-top: 0;
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+.descripcion-pro{
+	font-size: 18px;
+	width: 500px;
+	display: inline-block;
+}
+.cantidad-pro{
+	display: inline-block;
+	margin-left: 100px;
+	position: absolute;
+	right: -250px;
+	top: 107px;
+}
+.cantidad-pro h4{
+	font-size: 19px;
+}
+.cantidad{
+	width: 50px;
+}
+.valor{
+	margin-top: 15px;
+	font-size: 25px;
+}
+.comprar{
+	font-weight: 600;
+	font-size: 15px;
+	position: absolute;
+	bottom: 27px;
+	right: 40px;
+	background: #d3505a;
+	border-radius: 12px;
+	padding: 7px 23px;
+
+}
+.comprar:hover{
+	transform: scale(0.9);
+}
+.ultimo-pro{	
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+
+.footer{
+	height: 70px;
+	margin: 0;
+	background: #807f84;
+	display: flex;
+	align-items: center;
+}
+.footer h3{
+	margin: 0 40px;
+	font-size: 30px;
+
+}s
